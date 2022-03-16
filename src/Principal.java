@@ -8,6 +8,7 @@ public class Principal {
 
 		System.out.println("hOLA");
 		System.out.println("hOLA");
+		System.out.println("HOLA MUNDO");
 	/*
 		int a=1;
 		

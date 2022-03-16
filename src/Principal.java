@@ -9,6 +9,7 @@ public class Principal {
 		System.out.println("hOLA");
 		System.out.println("hOLA");
 		System.out.println("HOLA MUNDO");
+		System.out.println("Hola mundo 2");
 	/*
 		int a=1;
 		

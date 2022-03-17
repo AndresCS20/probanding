@@ -20,7 +20,7 @@ public class SecundarioEjercicios {
 		}
 
 		System.out.println(Arrays.deepToString(solucion));
-	
+		System.out.println("Ola");
 		
 int mat[][] = { { 3, 6, 8, 5 }, { 4, 7, 1, 9 } };
 int matb[][] = { { 2, 5, 6, 3 }, { 7, -7, 3, 4 } };
@@ -77,7 +77,7 @@ System.out.println(Arrays.deepToString(solucion));
 		
 		Arrays.sort(aux);
 		
-		System.out.println("El tamaÒo de la fila m·s larga es= "+aux[aux.length-1]);
+		System.out.println("El tama√±o de la fila m√°s larga es= "+aux[aux.length-1]);
 			
 		
 		//Ejercicio 5 Fallido
@@ -658,7 +658,7 @@ System.out.println(Arrays.deepToString(solucion));
 	}
 
 	for (int i = filaMenor; i < filaMayor; i++) {
-		// AquÌ solo un array tiene filas que en este caso es filaMayor
+		// Aqu√≠ solo un array tiene filas que en este caso es filaMayor
 		if (filaMayor == a.length) {
 			solucion[i] = new int[a[i].length];
 		} else {
@@ -666,9 +666,9 @@ System.out.println(Arrays.deepToString(solucion));
 		}
 	}
 
-	// En Este punto ya tenemos el tamaÒo de Array Solucion
+	// En Este punto ya tenemos el tama√±o de Array Solucion
 	// Despues de esto hacemos que ponga en todos los numeros -1, -2 o 0 dependiendo
-	// del tamaÒo
+	// del tama√±o
 
 	for (int i = 0; i < solucion.length; i++) {
 
@@ -1004,8 +1004,8 @@ System.out.println(Arrays.deepToString(solucion));
 		System.out.println(solucion);
 
 	
-		//Arrays unidimensionales con posiciones multiplos de 4 hasta lo que sea, 1∫ se tiene que comprobar que es multiplo de 4, 2 si tiene multiplo de 4 tiene que hacer lo siguiente 
-	//Array solucion coge los cuatro primeros los suma y lo guarda en la primera posicion y asÌ 
+		//Arrays unidimensionales con posiciones multiplos de 4 hasta lo que sea, 1¬∫ se tiene que comprobar que es multiplo de 4, 2 si tiene multiplo de 4 tiene que hacer lo siguiente 
+	//Array solucion coge los cuatro primeros los suma y lo guarda en la primera posicion y as√≠ 
 	
 		int a[]= {2,4,8,7,3,2,5,6,8,9,12,56,30,21,34,54};
 		int j=0;
@@ -1026,8 +1026,8 @@ System.out.println(Arrays.deepToString(solucion));
 		
 		
 		
-		//Dado un array de numeros enteros, luego un array b de booleanos del mismo tamaÒo ALEATORIO 
-		//Primero  medir el tamaÒo de ambos si no mide lo mismo mandar mensaje si miden igua hacer un array solucionb donde si es true multiplica el numero por 10  y si es false lo divide entre diez
+		//Dado un array de numeros enteros, luego un array b de booleanos del mismo tama√±o ALEATORIO 
+		//Primero  medir el tama√±o de ambos si no mide lo mismo mandar mensaje si miden igua hacer un array solucionb donde si es true multiplica el numero por 10  y si es false lo divide entre diez
 		
 		int a[]= {45,6,35,36,41,64,13,64,33};
 		boolean b[]={false, true,false,true,false,false,false,true,false};
@@ -1053,7 +1053,7 @@ System.out.println(Arrays.deepToString(solucion));
 		}
 		
 		
-		else System.out.println("No tienen el mismo tamaÒo A y B");
+		else System.out.println("No tienen el mismo tama√±o A y B");
 		
 		
 		
@@ -1127,7 +1127,7 @@ System.out.println(Arrays.deepToString(solucion));
 		
 		
 		
-		//Array Bidimensional (Matriz cuadrada) que puede ser de 5 o m·s (5x5 etc) hay que obtener matriz resultado de quitar la periferia 
+		//Array Bidimensional (Matriz cuadrada) que puede ser de 5 o m√°s (5x5 etc) hay que obtener matriz resultado de quitar la periferia 
 		
 		
 		int a[][]= {{1,2,3,4,5},{6,7,8,9,10},{11,12,13,14,15},{16,17,18,19,20},{21,22,23,24,25}};
